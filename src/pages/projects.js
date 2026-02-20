@@ -32,7 +32,9 @@ export default function Projects() {
     return (
         <>
             <Head>
-                <title>Projeler | Ufuk Kartal</title>
+                <title>Ufuk Kartal | Full-Stack Geliştirici & GümüşDil Yaratıcısı</title>
+                <meta name="description" content="Ufuk Kartal'ın kişisel portfolyosu. GümüşDil programlama dili yaratıcısı, sistem programlama ve modern web teknolojileri uzmanı." />
+                <meta name="keywords" content="Ufuk Kartal, yazılım mühendisi, GümüşDil, Gümüşİde, Full-stack geliştirici, Gümüşhane yazılım" />
             </Head>
             <section style={{ padding: '4rem 0' }}>
                 <h1 className="gradient-text" style={{ fontSize: '3rem', fontWeight: 800, marginBottom: '2rem', textAlign: 'center' }}>

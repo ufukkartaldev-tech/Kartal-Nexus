@@ -26,6 +26,11 @@ export default function Home() {
 
     return (
         <>
+            <Head>
+                <title>Ufuk Kartal | Yazılım Mühendisi & Full-Stack Geliştirici</title>
+                <meta name="description" content="Ufuk Kartal - Gümüşhane Üniversitesi Yazılım Mühendisi Adayı. GümüşDil, Fabula Evreni ve sistem programlama projelerimle tanışın." />
+                <meta name="keywords" content="Ufuk Kartal, Yazılım Mühendisi, GümüşDil, Portfolio, Gümüşhane, Full-stack" />
+            </Head>
             <section style={{
                 minHeight: '80vh',
                 display: 'flex',

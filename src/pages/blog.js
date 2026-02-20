@@ -26,7 +26,8 @@ export default function Blog() {
     return (
         <>
             <Head>
-                <title>Blog | Ufuk Kartal</title>
+                <title>Blog | Ufuk Kartal - Mühendislik Günlüğü ve Teknik İncelemeler</title>
+                <meta name="description" content="Yazılım dünyasına dair tecrübeler, GümüşDil'in inşa süreci ve düşük GPA ile mühendislik serüvenim." />
             </Head>
             <section style={{ padding: '4rem 0', maxWidth: '800px', margin: '0 auto' }}>
                 <h1 className="gradient-text" style={{ fontSize: '3rem', fontWeight: 800, marginBottom: '2rem', textAlign: 'center' }}>
