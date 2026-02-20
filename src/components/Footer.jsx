@@ -35,10 +35,10 @@ export default function Footer() {
                 <a href="https://github.com/ufukkartaldev-tech" target="_blank" rel="noopener noreferrer" style={{ padding: '0.5rem', borderRadius: '50%', background: 'rgba(255,255,255,0.05)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff' }}>
                     <Github size={24} />
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" style={{ padding: '0.5rem', borderRadius: '50%', background: 'rgba(255,255,255,0.05)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff' }}>
+                <a href="https://www.linkedin.com/in/ufuk-kartal-7908a3286/" target="_blank" rel="noopener noreferrer" style={{ padding: '0.5rem', borderRadius: '50%', background: 'rgba(255,255,255,0.05)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff' }}>
                     <Linkedin size={24} />
                 </a>
-                <a href="mailto:email@example.com" style={{ padding: '0.5rem', borderRadius: '50%', background: 'rgba(255,255,255,0.05)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff' }}>
+                <a href="mailto:ufuk.kartal.dev@gmail.com" style={{ padding: '0.5rem', borderRadius: '50%', background: 'rgba(255,255,255,0.05)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff' }}>
                     <Mail size={24} />
                 </a>
             </div>
