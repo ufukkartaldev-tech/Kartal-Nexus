@@ -4,22 +4,22 @@ import Link from 'next/link';
 export default function Blog() {
     const posts = [
         {
-            title: "Düşük GPA ile nasıl proje geliştirilir?",
-            excerpt: "1.42 ortalamayla mühendis olunur mu? Olunur, hem de kralı olunur. İşte yol haritası.",
-            date: "19 Şubat 2026",
-            slug: "dusuk-gpa-ile-proje"
+            title: "Düşük GPA, Yüksek Motivasyon: Diplomadan Fazlası",
+            excerpt: "1.42 ortalamayla mühendis olunur mu? Gümüşhane'nin dağlarından kod yazarken öğrendiğim en büyük ders: Mesele not dökümünde değil, o derleyiciyi nasıl zorladığında.",
+            date: "20 Şubat 2026",
+            slug: "dusuk-gpa-muhendislik"
         },
         {
-            title: "Gümüşhane'de yazılım okumak",
-            excerpt: "Coğrafya kaderdir derler, ama internet her yerde. Dağların arasında kod yazmanın avantajları.",
-            date: "15 Ocak 2026",
-            slug: "gumushane-yazilim"
+            title: "GümüşDil: Yerli Bir Dil İnşa Etmek",
+            excerpt: "Neden kendi programlama dilimizi yazmalıyız? C++ tabanlı bir derleyici ve Türkçe sözdizimi ile yazılımda tam bağımsızlık yolculuğu.",
+            date: "15 Şubat 2026",
+            slug: "gumusdil-insa-sureci"
         },
         {
-            title: "Veritabanı optimizasyonu nedir?",
-            excerpt: "SELECT * FROM users demekle olmuyor bu işler. Indexleme, sharding ve cache stratejileri.",
-            date: "10 Aralık 2025",
-            slug: "veritabani-optimizasyonu"
+            title: "Fabula Evreni'nde Node.js ve Ölçeklenebilirlik",
+            excerpt: "İnteraktif bir dünyada dallanan hikayeleri yönetmek. Firebase ve Next.js ikilisinin gücü sayesinde binlerce seçeneği nasıl yönetiyoruz?",
+            date: "10 Şubat 2026",
+            slug: "fabula-mimari"
         }
     ];
 
