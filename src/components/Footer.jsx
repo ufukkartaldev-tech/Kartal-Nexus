@@ -2,7 +2,7 @@ import { Github, Linkedin, Mail } from 'lucide-react';
 
 export default function Footer() {
     return (
-        <footer className="glass" style={{
+        <footer id="contact" className="glass" style={{
             marginTop: '6rem',
             padding: '4rem 2rem',
             textAlign: 'center',
