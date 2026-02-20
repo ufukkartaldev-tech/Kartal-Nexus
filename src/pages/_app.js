@@ -5,6 +5,7 @@ import { Outfit } from 'next/font/google'
 import Head from 'next/head'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useRouter } from 'next/router'
+import GumusZeka from '@/components/GumusZeka'
 
 const outfit = Outfit({ subsets: ['latin'] })
 
@@ -32,6 +33,7 @@ export default function App({ Component, pageProps }) {
                     </motion.div>
                 </AnimatePresence>
             </main>
+            <GumusZeka />
             <Footer />
         </div>
     )
