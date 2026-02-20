@@ -7,7 +7,13 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { useRouter } from 'next/router'
 import GumusZeka from '@/components/GumusZeka'
 
-const outfit = Outfit({ subsets: ['latin'] })
+// Tek kaynak: next/font/google üzerinden yükleniyor.
+// globals.css'deki @import URL kaldırıldı, buradan optimize şekilde geldi.
+const outfit = Outfit({
+    subsets: ['latin'],
+    weight: ['300', '400', '600', '700', '800'],
+    display: 'swap'
+})
 
 export default function App({ Component, pageProps }) {
     const router = useRouter();
@@ -18,6 +24,13 @@ export default function App({ Component, pageProps }) {
                 <title>Ufuk Kartal | Portfolio</title>
                 <meta name="description" content="Yazılım Mühendisi Adayı & Full-Stack Geliştirici Portfolyosu" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta charSet="utf-8" />
+                {/* OG Tags */}
+                <meta property="og:type" content="website" />
+                <meta property="og:site_name" content="Ufuk Kartal" />
+                <meta property="og:locale" content="tr_TR" />
+                {/* Favicon */}
+                <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔮</text></svg>" />
             </Head>
             <Header />
             <main className="container" style={{ minHeight: '80vh', paddingTop: '2rem' }}>

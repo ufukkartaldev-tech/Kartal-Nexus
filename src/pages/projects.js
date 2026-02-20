@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { motion } from 'framer-motion';
 import ProjectCard from '@/components/ProjectCard';
 
 export default function Projects() {
@@ -23,8 +24,8 @@ export default function Projects() {
         },
         {
             title: "PQC Araştırması",
-            description: "Kyber ve Dilithium algoritmaları üzerine teorik ve pratik çalışmalar.",
-            stack: ["Cryptography", "Python", "C"],
+            description: "Kyber ve Dilithium algoritmaları üzerine teorik ve pratik çalışmalar. ESP32 gibi gömülü sistemlerde post-kuantum şifreleme implementasyonu.",
+            stack: ["Cryptography", "Python", "C", "ESP32"],
             github: "https://github.com/ufukkartal/pqc-research"
         }
     ];
@@ -32,17 +33,27 @@ export default function Projects() {
     return (
         <>
             <Head>
-                <title>Ufuk Kartal | Full-Stack Geliştirici & GümüşDil Yaratıcısı</title>
+                <title>Projeler | Ufuk Kartal - Full-Stack Geliştirici & GümüşDil Yaratıcısı</title>
                 <meta name="description" content="Ufuk Kartal'ın kişisel portfolyosu. GümüşDil programlama dili yaratıcısı, sistem programlama ve modern web teknolojileri uzmanı." />
                 <meta name="keywords" content="Ufuk Kartal, yazılım mühendisi, GümüşDil, Gümüşİde, Full-stack geliştirici, Gümüşhane yazılım" />
+                <meta property="og:title" content="Projeler | Ufuk Kartal" />
+                <meta property="og:description" content="GitHub commit geçmişi diplomadan daha anlamlı konuşur." />
             </Head>
+
             <section style={{ padding: '4rem 0' }}>
-                <h1 className="gradient-text" style={{ fontSize: '3rem', fontWeight: 800, marginBottom: '2rem', textAlign: 'center' }}>
-                    Projeler
-                </h1>
-                <p style={{ textAlign: 'center', color: '#aaaaaa', marginBottom: '4rem', maxWidth: '600px', margin: '0 auto 4rem auto' }}>
-                    Mesele diplomada değil, GitHub commit geçmişinde. <br />İşte üzerinde çalıştığım bazı işler.
-                </p>
+                <motion.div
+                    initial={{ opacity: 0, y: 30 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.6 }}
+                    style={{ textAlign: 'center', marginBottom: '4rem' }}
+                >
+                    <h1 className="gradient-text" style={{ fontSize: '3rem', fontWeight: 800, marginBottom: '1rem' }}>
+                        Projeler
+                    </h1>
+                    <p style={{ color: '#aaaaaa', maxWidth: '600px', margin: '0 auto', fontSize: '1.05rem', lineHeight: 1.7 }}>
+                        Mesele diplomada değil, GitHub commit geçmişinde. <br />İşte üzerinde çalıştığım bazı işler.
+                    </p>
+                </motion.div>
 
                 <div style={{
                     display: 'grid',

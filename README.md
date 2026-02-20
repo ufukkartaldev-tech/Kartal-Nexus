@@ -1,6 +1,6 @@
 # 🦅 Kartal Nexus - Ufuk Kartal Professional Portfolio
 
-Bu repo, **GümüşDil**, **Gümüşİde** ve **Fabula Evreni** gibi projelerin yaratıcısı Ufuk Kartal'ın kişisel portfolyosunu ve mühendislik günlüğünü barındırır. Modern "Glassmorphism" tasarımı ve yüksek kullanıcı deneyimi odaklı geliştirilmiştir.
+Bu repo, **GümüşDil**, **Gümüşİde** ve **Fabula Evreni** gibi projelerin yapımcısı Ufuk Kartal'ın kişisel portfolyosunu ve mühendislik günlüğünü barındırır. Modern "Glassmorphism" tasarımı ve yüksek kullanıcı deneyimi odaklı geliştirilmiştir.
 
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
