@@ -26,6 +26,7 @@ const NAV_LINKS = [
     { href: '/', label: 'Ana Sayfa' },
     { href: '/projects', label: 'Projeler' },
     { href: '/blog', label: 'Blog' },
+    { href: '/game', label: '🎮 Oyun' },
     { href: '/contact', label: 'İletişim' },
 ];
 
