@@ -20,6 +20,7 @@ export default function Projects() {
             title: "Fabula Evreni",
             description: "Okuyucuların seçimleriyle şekillenen, dallanan ağaç yapısına sahip interaktif hikaye platformu. Oyunlaştırma (XP, Rozet) ve sosyal özellikler içerir.",
             stack: ["Next.js", "TypeScript", "Firebase", "Tailwind CSS"],
+            link: "https://fabula-evreni.vercel.app/",
             github: "https://github.com/ufukkartaldev-tech/fabula_evreni"
         },
         {

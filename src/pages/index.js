@@ -21,8 +21,9 @@ export default function Home() {
             title: "Fabula Evreni",
             description: "Dallanan ağaç yapısına sahip interaktif hikaye platformu. Oyunlaştırma ve sosyal özellikler ile zenginleştirilmiş.",
             stack: ["Next.js", "TypeScript", "Firebase"],
+            link: "https://fabula-evreni.vercel.app/",
             github: "https://github.com/ufukkartaldev-tech/fabula_evreni"
-        }
+        },
     ];
 
     return (
