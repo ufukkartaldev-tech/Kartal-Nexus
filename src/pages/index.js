@@ -12,15 +12,15 @@ export default function Home() {
         },
         {
             title: "GümüşDil & Gümüşİde",
-            description: "Kendi programlama dilim ve IDE projem. Derleyici mantığı üzerine bir çalışma.",
-            stack: ["C++", "C#", "Electron"],
-            github: "https://github.com/ufukkartal/gumusdil"
+            description: "Türkiye'nin Başmühendis Yazılım Ekosistemi. %100 Türkçe sözdizimi, C++ tabanlı Gümüş Compiler ve modern Glassmorphism IDE.",
+            stack: ["C++", "C#", "Electron", "Pardus"],
+            github: "https://github.com/ufukkartaldev-tech/Gumus_Dil"
         },
         {
             title: "Fabula Evreni",
-            description: "Node.js/React tabanlı ortaklaşa hikaye yazma platformu.",
-            stack: ["Node.js", "React", "MongoDB"],
-            github: "https://github.com/ufukkartal/fabula"
+            description: "Dallanan ağaç yapısına sahip interaktif hikaye platformu. Oyunlaştırma ve sosyal özellikler ile zenginleştirilmiş.",
+            stack: ["Next.js", "TypeScript", "Firebase"],
+            github: "https://github.com/ufukkartaldev-tech/fabula_evreni"
         }
     ];
 
@@ -129,20 +129,21 @@ export default function Home() {
                         <div>
                             <h3 style={{ fontSize: '1.5rem', fontWeight: 600, marginBottom: '1.5rem', borderBottom: '2px solid var(--primary)', paddingBottom: '0.5rem', display: 'inline-block' }}>Diller</h3>
                             <ul style={{ listStyle: 'none', fontSize: '1.1rem', color: '#ccc' }}>
-                                <li style={{ marginBottom: '0.5rem' }}>C++ <span style={{ opacity: 0.5, fontSize: '0.9rem' }}>(Sistem)</span></li>
-                                <li style={{ marginBottom: '0.5rem' }}>Java <span style={{ opacity: 0.5, fontSize: '0.9rem' }}>(Android/Backend)</span></li>
+                                <li style={{ marginBottom: '0.5rem' }}>C++ / C# <span style={{ opacity: 0.5, fontSize: '0.9rem' }}>(Sistem/Oyun)</span></li>
+                                <li style={{ marginBottom: '0.5rem' }}>TypeScript / JS <span style={{ opacity: 0.5, fontSize: '0.9rem' }}>(Modern Web)</span></li>
                                 <li style={{ marginBottom: '0.5rem' }}>Dart <span style={{ opacity: 0.5, fontSize: '0.9rem' }}>(Flutter)</span></li>
-                                <li style={{ marginBottom: '0.5rem' }}>Python <span style={{ opacity: 0.5, fontSize: '0.9rem' }}>(AI/Scripting)</span></li>
-                                <li style={{ marginBottom: '0.5rem' }}>C# <span style={{ opacity: 0.5, fontSize: '0.9rem' }}>(Unity/.NET)</span></li>
+                                <li style={{ marginBottom: '0.5rem' }}>Python <span style={{ opacity: 0.5, fontSize: '0.9rem' }}>(AI/PQC)</span></li>
+                                <li style={{ marginBottom: '0.5rem' }}>Java <span style={{ opacity: 0.5, fontSize: '0.9rem' }}>(Backend)</span></li>
                             </ul>
                         </div>
                         <div>
                             <h3 style={{ fontSize: '1.5rem', fontWeight: 600, marginBottom: '1.5rem', borderBottom: '2px solid var(--secondary)', paddingBottom: '0.5rem', display: 'inline-block' }}>Teknolojiler</h3>
                             <ul style={{ listStyle: 'none', fontSize: '1.1rem', color: '#ccc' }}>
-                                <li style={{ marginBottom: '0.5rem' }}>Flutter <span style={{ opacity: 0.5, fontSize: '0.9rem' }}>(Mobil/Web)</span></li>
-                                <li style={{ marginBottom: '0.5rem' }}>Node.js <span style={{ opacity: 0.5, fontSize: '0.9rem' }}>(Backend)</span></li>
-                                <li style={{ marginBottom: '0.5rem' }}>SQL <span style={{ opacity: 0.5, fontSize: '0.9rem' }}>(PostgreSQL/MySQL)</span></li>
-                                <li style={{ marginBottom: '0.5rem' }}>Arduino/ESP32 <span style={{ opacity: 0.5, fontSize: '0.9rem' }}>(IoT)</span></li>
+                                <li style={{ marginBottom: '0.5rem' }}>Next.js / React <span style={{ opacity: 0.5, fontSize: '0.9rem' }}>(Frontend)</span></li>
+                                <li style={{ marginBottom: '0.5rem' }}>Firebase / Node.js <span style={{ opacity: 0.5, fontSize: '0.9rem' }}>(Backend)</span></li>
+                                <li style={{ marginBottom: '0.5rem' }}>Flutter <span style={{ opacity: 0.5, fontSize: '0.9rem' }}>(Multi-platform)</span></li>
+                                <li style={{ marginBottom: '0.5rem' }}>Tailwind CSS <span style={{ opacity: 0.5, fontSize: '0.9rem' }}>(Styling)</span></li>
+                                <li style={{ marginBottom: '0.5rem' }}>SQL / NoSQL <span style={{ opacity: 0.5, fontSize: '0.9rem' }}>(Data)</span></li>
                             </ul>
                         </div>
                         <div>

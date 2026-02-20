@@ -32,7 +32,7 @@ export default function Footer() {
             </p>
 
             <div style={{ display: 'flex', gap: '1.5rem', marginBottom: '2rem' }}>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" style={{ padding: '0.5rem', borderRadius: '50%', background: 'rgba(255,255,255,0.05)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff' }}>
+                <a href="https://github.com/ufukkartaldev-tech" target="_blank" rel="noopener noreferrer" style={{ padding: '0.5rem', borderRadius: '50%', background: 'rgba(255,255,255,0.05)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff' }}>
                     <Github size={24} />
                 </a>
                 <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" style={{ padding: '0.5rem', borderRadius: '50%', background: 'rgba(255,255,255,0.05)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff' }}>

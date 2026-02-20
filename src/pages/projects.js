@@ -11,15 +11,15 @@ export default function Projects() {
         },
         {
             title: "GümüşDil & Gümüşİde",
-            description: "Kendi programlama dilim ve IDE projem. Derleyici mantığı üzerine bir çalışma.",
-            stack: ["C++", "C#", "Electron"],
-            github: "https://github.com/ufukkartal/gumusdil"
+            description: "Türkiye'nin Başmühendis Yazılım Ekosistemi. %100 Türkçe sözdizimi, C++ tabanlı Gümüş Compiler ve modern Glassmorphism IDE.",
+            stack: ["C++", "C#", "Electron", "Pardus Entegrasyonu"],
+            github: "https://github.com/ufukkartaldev-tech/Gumus_Dil"
         },
         {
             title: "Fabula Evreni",
-            description: "Node.js/React tabanlı ortaklaşa hikaye yazma platformu.",
-            stack: ["Node.js", "React", "MongoDB"],
-            github: "https://github.com/ufukkartal/fabula"
+            description: "Okuyucuların seçimleriyle şekillenen, dallanan ağaç yapısına sahip interaktif hikaye platformu. Oyunlaştırma (XP, Rozet) ve sosyal özellikler içerir.",
+            stack: ["Next.js", "TypeScript", "Firebase", "Tailwind CSS"],
+            github: "https://github.com/ufukkartaldev-tech/fabula_evreni"
         },
         {
             title: "PQC Araştırması",
