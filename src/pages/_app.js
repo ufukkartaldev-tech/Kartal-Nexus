@@ -5,7 +5,6 @@ import { Outfit } from 'next/font/google'
 import Head from 'next/head'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useRouter } from 'next/router'
-import GumusZeka from '@/components/GumusZeka'
 
 // Tek kaynak: next/font/google üzerinden yükleniyor.
 // globals.css'deki @import URL kaldırıldı, buradan optimize şekilde geldi.
@@ -46,7 +45,6 @@ export default function App({ Component, pageProps }) {
                     </motion.div>
                 </AnimatePresence>
             </main>
-            <GumusZeka />
             <Footer />
         </div>
     )
