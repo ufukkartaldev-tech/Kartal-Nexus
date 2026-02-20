@@ -48,7 +48,7 @@ export default function Blog() {
                             <p style={{ color: '#aaa', lineHeight: '1.8', marginBottom: '1.5rem' }}>
                                 {post.excerpt}
                             </p>
-                            <Link href={`#`} style={{ fontWeight: 600, color: 'var(--secondary)', display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>
+                            <Link href={`/blog/${post.slug}`} style={{ fontWeight: 600, color: 'var(--secondary)', display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}>
                                 Devamını Oku &rarr;
                             </Link>
                         </article>
